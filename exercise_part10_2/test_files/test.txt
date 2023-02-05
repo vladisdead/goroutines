@@ -1,0 +1,34 @@
+* local node not active but active cluster node not found
+2023-01-30T15:03:12.580+0300 [ERROR] subject doesn't contains in regex string
+2023-01-30T15:03:25.761+0300 [ERROR] subject doesn't contains in regex string
+2023-01-30T15:03:34.619+0300 [ERROR] subject doesn't contains in regex string
+2023-01-30T15:06:18.631+0300 [ERROR] error encountered while reading secret at /database/creds/postgres_role: Get "http://127.0.0.1:8200/v1/database/creds/postgres_role": dial tcp 127.0.0.1:8200: connectex: No connection could be made because the target machine actively refused it.
+2023-01-30T15:06:28.499+0300 [ERROR] error encountered while reading secret at /database/creds/postgres_role: Get "http://127.0.0.1:8200/v1/database/creds/postgres_role": dial tcp 127.0.0.1:8200: connectex: No connection could be made because the target machine actively refused it.
+2023-01-30T15:06:36.943+0300 [ERROR] error encountered while reading secret at /database/creds/postgres_role: Error making API request.
+
+URL: GET http://127.0.0.1:8200/v1/database/creds/postgres_role
+Code: 503. Errors:
+
+* Vault is sealed
+2023-01-30T15:06:40.966+0300 [ERROR] error encountered while reading secret at /database/creds/postgres_role: Error making API request.
+
+URL: GET http://127.0.0.1:8200/v1/database/creds/postgres_role
+Code: 503. Errors:
+
+* Vault is sealed
+2023-01-30T15:06:44.760+0300 [ERROR] error encountered while reading secret at /database/creds/postgres_role: Error making API request.
+
+URL: GET http://127.0.0.1:8200/v1/database/creds/postgres_role
+Code: 503. Errors:
+
+* Vault is sealed
+2023-01-30T15:06:48.502+0300 [ERROR] error encountered while reading secret at /database/creds/postgres_role: Error making API request.
+
+URL: GET http://127.0.0.1:8200/v1/database/creds/postgres_role
+Code: 503. Errors:
+
+* local node not active but active cluster node not found
+2023-01-30T15:06:51.646+0300 [ERROR] subject doesn't contains in regex string
+2023-01-30T15:06:53.726+0300 [ERROR] subject doesn't contains in regex string
+2023-01-30T15:24:35.217+0300 [ERROR] subject doesn't contains in regex string
+2023-01-30T15:39:42.398+0300 [INFO]  Shutdown triggered
